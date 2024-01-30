@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\azumi\Desktop\pedido\.metadata\.plugins\org.eclipse.jdt.core
+2232533727.index
+1865797976.index
+943989422.index
