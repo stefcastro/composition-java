@@ -72,16 +72,16 @@ public class Order {
 		for (OrderItem i : items) {
 			sb.append(i.getProduct().getName());
 			sb.append(", ");
-			sb.append(String.format("%.2f",i.getProduct().getPrice()));
+			sb.append(i.getProduct().getPrice());
 			sb.append(", Quantity: ");
 			sb.append(i.getQuantity());
-			sb.append(", SubTotal: $");
-			sb.append(String.format("%.2f",i.subTotal()));
-			sb.append("\n");
+			sb.append(", SubTotal: $ ");
+			sb.append(String.format("%.2f", i.subTotal()));)
 		}
 		sb.append("Total price: $");
 		sb.append(String.format("%.2f",total()));
-		return sb.toString();	
+		return sb.toString();
+		
 	}
 }
 

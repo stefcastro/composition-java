@@ -59,7 +59,9 @@ public class Program {
 		System.out.println("Client: " + order.getClient());
 		System.out.println("Order items:");
 		
-		System.out.println(order);
+		for (int i = 1; i<=n; i++) {
+			System.out.println(order.getItem());
+		}
 		
 		sc.close();
 	}

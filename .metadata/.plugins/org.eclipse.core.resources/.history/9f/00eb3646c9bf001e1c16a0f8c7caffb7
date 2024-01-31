@@ -20,6 +20,7 @@ public class Program {
 		Scanner sc = new Scanner (System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy"); 
 		SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		OrderItem items2 = new OrderItem();
 		
 		System.out.println("Enter cliente data:");
 		System.out.print("Name: ");
@@ -59,7 +60,9 @@ public class Program {
 		System.out.println("Client: " + order.getClient());
 		System.out.println("Order items:");
 		
-		System.out.println(order);
+		for (int i = 1; i<=n; i++) {
+			System.out.println(items2);
+		}
 		
 		sc.close();
 	}
